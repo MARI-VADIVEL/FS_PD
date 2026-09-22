@@ -1,0 +1,2769 @@
+Build a complete production-style MERN stack web application named **Mining Equipment & Tyre Maintenance Management Platform**.
+
+The project owner/student name is **MARI ESWARAN V**.
+
+The application is intended as a final-year/college-level software project but must look and behave like a real-world enterprise maintenance management system.
+
+Use the MERN stack.
+
+Use MongoDB as the database.
+
+Use Express.js as the backend framework.
+
+Use React.js as the frontend framework.
+
+Use Node.js as the backend runtime.
+
+Use REST APIs between frontend and backend.
+
+Use a modern React architecture.
+
+Use clean reusable components.
+
+Use a professional responsive user interface.
+
+Do not create a basic demo application.
+
+Build a complete functional application.
+
+Do not use fake buttons that do nothing.
+
+Every important button must perform a real action.
+
+Every form must have validation.
+
+Every CRUD operation must communicate with the backend.
+
+Every important database operation must be implemented.
+
+The application must be secure.
+
+The application must be responsive.
+
+The application must work properly on desktop, tablet and mobile screens.
+
+The application must have a professional mining-industry-inspired visual design.
+
+Do not overuse animations.
+
+Use animations only where they improve usability.
+
+The interface should feel like enterprise fleet and maintenance management software.
+
+Do not make the design look like a generic student dashboard.
+
+Use a clean sidebar navigation.
+
+Use a professional top navigation bar.
+
+Use cards for important KPIs.
+
+Use charts for analytics.
+
+Use tables for operational data.
+
+Use badges for status values.
+
+Use modal dialogs where appropriate.
+
+Use confirmation dialogs before destructive actions.
+
+Use toast notifications for successful and failed operations.
+
+Use loading states.
+
+Use skeleton loading where appropriate.
+
+Use empty states.
+
+Use proper error states.
+
+Use pagination for large datasets.
+
+Use search functionality.
+
+Use filtering functionality.
+
+Use sorting functionality.
+
+Use date range filtering.
+
+Use export functionality where appropriate.
+
+Use role-based access control.
+
+Implement authentication.
+
+Implement authorization.
+
+Implement secure password handling.
+
+Implement protected routes.
+
+Implement session/token handling securely.
+
+Do not store passwords in plain text.
+
+Hash passwords using bcrypt.
+
+Use JWT authentication.
+
+Use secure token handling.
+
+Implement logout functionality.
+
+Implement automatic authentication state handling.
+
+Implement unauthorized access handling.
+
+Implement forbidden access handling.
+
+Implement API request error handling.
+
+Implement centralized backend error handling.
+
+Implement request validation.
+
+Implement server-side validation.
+
+Do not trust frontend validation alone.
+
+Sanitize user input.
+
+Protect APIs from common attacks.
+
+Use Helmet.
+
+Use CORS configuration.
+
+Use rate limiting for authentication-related endpoints.
+
+Use secure HTTP headers.
+
+Avoid exposing sensitive information in API errors.
+
+Never return passwords from APIs.
+
+Never return password hashes from APIs.
+
+Do not hardcode secrets.
+
+Use environment variables.
+
+Create a .env.example file.
+
+Create clear environment variable documentation.
+
+Use a configurable MongoDB connection string.
+
+Use configurable JWT secret.
+
+Use configurable frontend/backend URLs.
+
+Create a professional project folder structure.
+
+Separate frontend and backend code.
+
+Use controllers.
+
+Use routes.
+
+Use models.
+
+Use middleware.
+
+Use services where useful.
+
+Use utility functions.
+
+Use reusable React components.
+
+Use reusable hooks.
+
+Use a centralized API service.
+
+Use consistent API response structures.
+
+Use proper HTTP status codes.
+
+Use meaningful variable names.
+
+Use meaningful function names.
+
+Do not add comments inside the source code.
+
+The generated production code must contain no comments.
+
+Do not add unnecessary console.log statements.
+
+Use structured error handling instead of debugging logs.
+
+Keep the code clean and readable.
+
+Avoid duplicated code.
+
+Avoid unnecessarily complicated abstractions.
+
+Use modular architecture.
+
+Create a scalable MongoDB data model.
+
+Use MongoDB indexes where appropriate.
+
+Use timestamps on important records.
+
+Use createdAt and updatedAt fields.
+
+Use references between related collections.
+
+Use aggregation pipelines for dashboard analytics where appropriate.
+
+Create database seed data.
+
+Create a seed script for development.
+
+Create realistic sample mining data.
+
+Do not use random nonsense data.
+
+Use realistic equipment names.
+
+Use realistic tyre data.
+
+Use realistic maintenance records.
+
+Use realistic employee/user records.
+
+Use realistic spare-part records.
+
+Use realistic maintenance costs.
+
+Use realistic operating hours.
+
+Create a professional login page.
+
+Create a login form.
+
+Login must validate required fields.
+
+Show appropriate validation messages.
+
+Show loading state during login.
+
+Display authentication errors clearly.
+
+Redirect users after successful login.
+
+Create a logout function.
+
+Create a forgot-password flow structure.
+
+Create reset-password functionality.
+
+Use secure password reset tokens.
+
+Password reset tokens must expire.
+
+Create a user management module.
+
+Users must have unique email addresses.
+
+Users must have roles.
+
+Support the following roles.
+
+Super Admin.
+
+Maintenance Manager.
+
+Maintenance Engineer.
+
+Technician.
+
+Fleet Manager.
+
+Store Manager.
+
+Safety Officer.
+
+Viewer.
+
+Implement permissions based on roles.
+
+Do not rely only on hiding frontend buttons.
+
+Backend APIs must also verify permissions.
+
+Super Admin can manage everything.
+
+Maintenance Manager can manage maintenance operations.
+
+Maintenance Engineer can create and manage maintenance work orders.
+
+Technician can update assigned maintenance tasks.
+
+Fleet Manager can manage equipment and operational information.
+
+Store Manager can manage spare parts and inventory.
+
+Safety Officer can view safety and maintenance compliance information.
+
+Viewer can access read-only dashboards and reports.
+
+Create a user profile page.
+
+Allow users to update profile information.
+
+Allow users to change their password.
+
+Display current user role.
+
+Display last login information where appropriate.
+
+Create an admin dashboard.
+
+Dashboard must provide a high-level view of mining operations.
+
+Show total equipment.
+
+Show active equipment.
+
+Show equipment under maintenance.
+
+Show equipment requiring maintenance.
+
+Show total tyres.
+
+Show tyres currently in service.
+
+Show tyres requiring inspection.
+
+Show tyres requiring replacement.
+
+Show open work orders.
+
+Show overdue work orders.
+
+Show completed work orders.
+
+Show maintenance cost.
+
+Show spare parts inventory value.
+
+Show low-stock spare parts.
+
+Show critical alerts.
+
+Show equipment availability percentage.
+
+Show maintenance compliance percentage.
+
+Show tyre health statistics.
+
+Add charts for equipment status.
+
+Add charts for maintenance trends.
+
+Add charts for monthly maintenance cost.
+
+Add charts for tyre replacements.
+
+Add charts for work-order status.
+
+Add charts for equipment downtime.
+
+Allow dashboard date filtering.
+
+Make dashboard cards clickable where useful.
+
+Clicking a KPI should navigate to the relevant module.
+
+Create an Equipment Management module.
+
+Users must be able to register mining equipment.
+
+Each equipment record should contain equipment ID.
+
+Equipment should have an asset number.
+
+Equipment should have equipment type.
+
+Equipment should have manufacturer.
+
+Equipment should have model.
+
+Equipment should have serial number.
+
+Equipment should have year of manufacture.
+
+Equipment should have purchase date.
+
+Equipment should have commissioning date.
+
+Equipment should have current operating hours.
+
+Equipment should have current kilometer/mileage where applicable.
+
+Equipment should have location.
+
+Equipment should have assigned department.
+
+Equipment should have assigned operator.
+
+Equipment should have equipment status.
+
+Equipment should have fuel type where applicable.
+
+Equipment should have capacity where applicable.
+
+Equipment should have maintenance interval.
+
+Equipment should have last service date.
+
+Equipment should have next service date.
+
+Equipment should have notes.
+
+Equipment should support document attachments where feasible.
+
+Equipment should have createdAt.
+
+Equipment should have updatedAt.
+
+Use equipment statuses such as Active.
+
+Inactive.
+
+Under Maintenance.
+
+Breakdown.
+
+Retired.
+
+Available.
+
+Create an equipment list page.
+
+Display equipment in a professional table.
+
+Include equipment ID.
+
+Asset number.
+
+Type.
+
+Manufacturer.
+
+Model.
+
+Operating hours.
+
+Location.
+
+Status.
+
+Next maintenance.
+
+Actions.
+
+Add search.
+
+Add filtering.
+
+Add sorting.
+
+Add pagination.
+
+Add status filtering.
+
+Add equipment type filtering.
+
+Add location filtering.
+
+Add maintenance-due filtering.
+
+Create an equipment details page.
+
+Show complete equipment information.
+
+Show equipment status.
+
+Show maintenance history.
+
+Show work-order history.
+
+Show downtime history.
+
+Show assigned tyres.
+
+Show spare parts usage where applicable.
+
+Show maintenance cost summary.
+
+Show operating-hour trend.
+
+Show upcoming maintenance.
+
+Show documents if available.
+
+Add edit equipment.
+
+Add delete equipment.
+
+Require confirmation before deletion.
+
+Prefer soft deletion for important records.
+
+Create an equipment status update workflow.
+
+Record status changes.
+
+Store status history.
+
+Record who changed the status.
+
+Record when the status changed.
+
+Create an equipment assignment system.
+
+Allow equipment to be assigned to operators.
+
+Allow equipment to be assigned to locations.
+
+Allow reassignment.
+
+Record assignment history.
+
+Create an Equipment Maintenance module.
+
+Maintenance records must support preventive maintenance.
+
+Maintenance records must support corrective maintenance.
+
+Maintenance records must support breakdown maintenance.
+
+Maintenance records must support inspection.
+
+Maintenance records must support emergency maintenance.
+
+Create maintenance schedules.
+
+Allow maintenance schedules to be based on date.
+
+Allow maintenance schedules to be based on operating hours.
+
+Allow maintenance schedules to be based on mileage where applicable.
+
+Create automatic maintenance-due calculations.
+
+Show upcoming maintenance.
+
+Show overdue maintenance.
+
+Show maintenance due today.
+
+Show maintenance due this week.
+
+Show maintenance due this month.
+
+Create preventive maintenance templates.
+
+Templates should contain service type.
+
+Maintenance interval.
+
+Checklist.
+
+Required spare parts.
+
+Estimated duration.
+
+Estimated cost.
+
+Required skills.
+
+Create Work Order management.
+
+A work order must contain a unique work order number.
+
+It must reference equipment.
+
+It must contain maintenance type.
+
+It must contain priority.
+
+It must contain problem description.
+
+It must contain reported date.
+
+It must contain scheduled date.
+
+It must contain assigned engineer.
+
+It must contain assigned technician.
+
+It must contain estimated duration.
+
+It must contain actual duration.
+
+It must contain estimated cost.
+
+It must contain actual cost.
+
+It must contain required spare parts.
+
+It must contain maintenance checklist.
+
+It must contain completion notes.
+
+It must contain status.
+
+Support work-order statuses.
+
+Draft.
+
+Open.
+
+Assigned.
+
+In Progress.
+
+On Hold.
+
+Completed.
+
+Cancelled.
+
+Support priorities.
+
+Low.
+
+Medium.
+
+High.
+
+Critical.
+
+Create a work-order list.
+
+Create a work-order details page.
+
+Create a work-order creation form.
+
+Create a work-order editing form.
+
+Allow assigning technicians.
+
+Allow changing priority.
+
+Allow changing status.
+
+Allow adding maintenance notes.
+
+Allow adding completion notes.
+
+Allow recording actual labor hours.
+
+Allow recording spare parts used.
+
+Allow recording maintenance cost.
+
+Allow marking work order completed.
+
+Prevent unauthorized users from closing work orders.
+
+Record who completed the work order.
+
+Record completion timestamp.
+
+Create maintenance checklists.
+
+Technicians should be able to mark checklist items completed.
+
+Support checklist statuses.
+
+Pending.
+
+Passed.
+
+Failed.
+
+Not Applicable.
+
+If a critical checklist item fails, show a warning.
+
+Allow maintenance managers to review completed work orders.
+
+Create maintenance history.
+
+Every completed maintenance record must remain accessible.
+
+Do not permanently delete important maintenance history.
+
+Create maintenance cost tracking.
+
+Track labor cost.
+
+Track spare parts cost.
+
+Track external service cost.
+
+Track total cost.
+
+Calculate total cost automatically.
+
+Create downtime tracking.
+
+Record downtime start.
+
+Record downtime end.
+
+Calculate downtime duration.
+
+Record downtime reason.
+
+Record downtime category.
+
+Create downtime categories.
+
+Mechanical.
+
+Electrical.
+
+Hydraulic.
+
+Tyre.
+
+Engine.
+
+Transmission.
+
+Other.
+
+Display equipment downtime analytics.
+
+Calculate equipment availability.
+
+Create preventive maintenance compliance calculations.
+
+Create maintenance KPI calculations.
+
+Create MTBF calculations.
+
+Create MTTR calculations.
+
+Create a Tyre Management module.
+
+The tyre system is a major feature of this project.
+
+Each tyre must have a unique tyre ID.
+
+Each tyre must have a serial number.
+
+Each tyre must have a brand.
+
+Each tyre must have a model.
+
+Each tyre must have a tyre size.
+
+Each tyre must have a tyre type.
+
+Each tyre must have a purchase date.
+
+Each tyre must have purchase cost.
+
+Each tyre must have current status.
+
+Each tyre must have current position.
+
+Each tyre must have assigned equipment.
+
+Each tyre must have installation date.
+
+Each tyre must have installation operating hours.
+
+Each tyre must have current operating hours.
+
+Each tyre must have tread depth.
+
+Each tyre must have initial tread depth.
+
+Each tyre must have pressure reading.
+
+Each tyre must have recommended pressure.
+
+Each tyre must have temperature reading where applicable.
+
+Each tyre must have condition.
+
+Each tyre must have inspection date.
+
+Each tyre must have next inspection date.
+
+Each tyre must have removal date.
+
+Each tyre must have removal reason.
+
+Each tyre must have total life.
+
+Each tyre must have cost per operating hour.
+
+Create tyre statuses.
+
+In Stock.
+
+Installed.
+
+Under Inspection.
+
+Under Repair.
+
+Retread.
+
+Retired.
+
+Scrapped.
+
+Create tyre condition levels.
+
+Excellent.
+
+Good.
+
+Fair.
+
+Poor.
+
+Critical.
+
+Create a tyre inventory page.
+
+Display all tyres.
+
+Allow search by tyre ID.
+
+Allow search by serial number.
+
+Allow search by equipment.
+
+Allow search by brand.
+
+Allow filtering by status.
+
+Allow filtering by condition.
+
+Allow filtering by tyre size.
+
+Create tyre details page.
+
+Show complete tyre information.
+
+Show tyre installation history.
+
+Show inspection history.
+
+Show pressure history.
+
+Show tread-depth history.
+
+Show movement history.
+
+Show repair history.
+
+Show retread history.
+
+Show cost history.
+
+Show tyre life analytics.
+
+Create tyre inspection functionality.
+
+Inspection should record inspection date.
+
+Inspector.
+
+Tread depth.
+
+Pressure.
+
+Temperature.
+
+Visual condition.
+
+Damage type.
+
+Sidewall condition.
+
+Bead condition.
+
+Recommendation.
+
+Inspection notes.
+
+Create tyre damage categories.
+
+Puncture.
+
+Sidewall Damage.
+
+Uneven Wear.
+
+Cut.
+
+Crack.
+
+Heat Damage.
+
+Rim Damage.
+
+Other.
+
+Create tyre position management.
+
+Support positions such as front-left.
+
+front-right.
+
+rear-left.
+
+rear-right.
+
+spare.
+
+For large equipment allow configurable wheel positions.
+
+Create tyre installation workflow.
+
+Select equipment.
+
+Select tyre.
+
+Select position.
+
+Enter installation date.
+
+Enter current equipment hours.
+
+Enter tyre pressure.
+
+Enter tread depth.
+
+Save installation history.
+
+Do not overwrite historical installation records.
+
+Create tyre removal workflow.
+
+Record removal reason.
+
+Record removal date.
+
+Record equipment hours.
+
+Record tyre hours.
+
+Record tread depth.
+
+Record condition.
+
+Create tyre rotation workflow.
+
+Allow tyre rotation between positions.
+
+Record old position.
+
+Record new position.
+
+Record date.
+
+Record equipment operating hours.
+
+Record user who performed rotation.
+
+Create tyre lifecycle tracking.
+
+Track tyre from purchase to installation.
+
+Track inspections.
+
+Track repairs.
+
+Track rotations.
+
+Track removal.
+
+Track retreading.
+
+Track retirement.
+
+Create tyre cost analytics.
+
+Calculate cost per hour.
+
+Calculate cost per kilometer where applicable.
+
+Calculate total tyre expenditure.
+
+Calculate average tyre life.
+
+Calculate replacement frequency.
+
+Create tyre replacement alerts.
+
+Alert when tread depth reaches configured threshold.
+
+Alert when inspection is overdue.
+
+Alert when pressure is abnormal.
+
+Alert when tyre condition is critical.
+
+Create an Inventory Management module.
+
+Manage spare parts.
+
+Each spare part must have a unique part number.
+
+Store part name.
+
+Category.
+
+Manufacturer.
+
+Supplier.
+
+Unit.
+
+Quantity.
+
+Minimum stock.
+
+Maximum stock.
+
+Unit cost.
+
+Storage location.
+
+Compatibility.
+
+Description.
+
+Status.
+
+Create inventory list.
+
+Search parts.
+
+Filter parts.
+
+Sort parts.
+
+Paginate parts.
+
+Create low-stock alerts.
+
+Create out-of-stock alerts.
+
+Create stock-in functionality.
+
+Create stock-out functionality.
+
+Create stock adjustment functionality.
+
+Record inventory movement.
+
+Record quantity.
+
+Record movement type.
+
+Record reference.
+
+Record user.
+
+Record date.
+
+Create spare-part issue workflow.
+
+Allow parts to be issued to work orders.
+
+Automatically decrease inventory.
+
+Prevent stock from becoming negative.
+
+Create spare-part return workflow.
+
+Automatically increase inventory.
+
+Track inventory value.
+
+Create supplier management.
+
+Store supplier name.
+
+Contact person.
+
+Email.
+
+Phone.
+
+Address.
+
+Products supplied.
+
+Create supplier list.
+
+Create supplier details.
+
+Create purchase records.
+
+Create purchase order structure.
+
+Purchase orders should contain supplier.
+
+Order date.
+
+Expected delivery.
+
+Items.
+
+Quantities.
+
+Unit costs.
+
+Total amount.
+
+Status.
+
+Create purchase order statuses.
+
+Draft.
+
+Ordered.
+
+Partially Received.
+
+Received.
+
+Cancelled.
+
+Create receiving workflow.
+
+Update inventory after receiving stock.
+
+Create alert management.
+
+Alerts should be generated automatically.
+
+Create maintenance due alerts.
+
+Create overdue maintenance alerts.
+
+Create critical equipment alerts.
+
+Create low-stock alerts.
+
+Create tyre inspection alerts.
+
+Create tyre replacement alerts.
+
+Create abnormal tyre pressure alerts.
+
+Create work-order overdue alerts.
+
+Create critical safety alerts.
+
+Create an alerts center.
+
+Display unread alerts.
+
+Display read alerts.
+
+Allow marking alerts as read.
+
+Allow marking all alerts as read.
+
+Allow navigation from alert to related record.
+
+Create notification preferences.
+
+Allow users to control relevant notifications.
+
+Create a Reports module.
+
+Create equipment reports.
+
+Create maintenance reports.
+
+Create tyre reports.
+
+Create inventory reports.
+
+Create cost reports.
+
+Create downtime reports.
+
+Create work-order reports.
+
+Create compliance reports.
+
+Create user activity reports.
+
+Allow filtering reports by date.
+
+Allow filtering by equipment.
+
+Allow filtering by location.
+
+Allow filtering by status.
+
+Allow export to CSV.
+
+Where practical, support PDF report generation.
+
+Create professional printable reports.
+
+Reports must include report title.
+
+Generated date.
+
+Selected filters.
+
+Summary.
+
+Detailed data.
+
+Totals.
+
+Create a maintenance cost report.
+
+Show cost by equipment.
+
+Show cost by month.
+
+Show cost by maintenance type.
+
+Create downtime report.
+
+Show downtime by equipment.
+
+Show downtime by reason.
+
+Show downtime duration.
+
+Create tyre performance report.
+
+Show tyre life.
+
+Show tyre replacement rate.
+
+Show tyre cost per hour.
+
+Create inventory report.
+
+Show current stock.
+
+Show low-stock items.
+
+Show inventory value.
+
+Create audit logging.
+
+Every sensitive administrative action should be logged.
+
+Log user ID.
+
+Log action.
+
+Log module.
+
+Log record ID.
+
+Log timestamp.
+
+Log relevant metadata where appropriate.
+
+Create audit log page.
+
+Only authorized roles should access audit logs.
+
+Support filtering audit logs.
+
+Support date filtering.
+
+Support user filtering.
+
+Support action filtering.
+
+Support module filtering.
+
+Create a system settings module.
+
+Allow configuration of maintenance thresholds.
+
+Allow configuration of tyre tread thresholds.
+
+Allow configuration of tyre pressure thresholds.
+
+Allow configuration of inventory minimum levels.
+
+Allow configuration of maintenance priorities.
+
+Allow configuration of notification settings.
+
+Create location management.
+
+Allow mining sites.
+
+Allow zones.
+
+Allow workshops.
+
+Allow parking areas.
+
+Allow storage locations.
+
+Create department management.
+
+Create employee/technician management.
+
+Employees should contain employee ID.
+
+Name.
+
+Email.
+
+Phone.
+
+Department.
+
+Designation.
+
+Skills.
+
+Status.
+
+Create technician skill management.
+
+Allow assigning technicians based on skills.
+
+Create workshop management.
+
+Store workshop name.
+
+Location.
+
+Capacity.
+
+Manager.
+
+Status.
+
+Create maintenance bay management.
+
+Allow equipment to be assigned to maintenance bays.
+
+Create operational dashboard.
+
+Show equipment availability.
+
+Show equipment utilization.
+
+Show equipment currently operating.
+
+Show equipment currently stopped.
+
+Show equipment under maintenance.
+
+Show equipment downtime.
+
+Create analytics.
+
+Use charts with readable labels.
+
+Use responsive charts.
+
+Do not overload the dashboard with charts.
+
+Use a maximum practical number of charts per screen.
+
+Use date-based trend charts.
+
+Use doughnut/pie charts only where appropriate.
+
+Use bar charts for comparisons.
+
+Use line charts for trends.
+
+Use KPI cards for important numbers.
+
+Use tooltips.
+
+Create a global search system.
+
+Allow searching equipment.
+
+Allow searching tyres.
+
+Allow searching work orders.
+
+Allow searching spare parts.
+
+Allow searching users where authorized.
+
+Create breadcrumbs.
+
+Create consistent page headers.
+
+Create reusable table components.
+
+Create reusable form components.
+
+Create reusable modal components.
+
+Create reusable confirmation dialog.
+
+Create reusable status badge.
+
+Create reusable loading spinner.
+
+Create reusable empty state.
+
+Create reusable error state.
+
+Create reusable pagination.
+
+Create reusable search bar.
+
+Create reusable date range picker.
+
+Create reusable dashboard card.
+
+Use a consistent design system.
+
+Use professional typography.
+
+Use appropriate spacing.
+
+Use accessible contrast.
+
+Use keyboard-friendly controls.
+
+Add visible focus states.
+
+Use semantic HTML.
+
+Add accessible labels.
+
+Ensure forms are accessible.
+
+Do not depend only on color to communicate status.
+
+Make the sidebar collapsible.
+
+On mobile, convert sidebar to a mobile navigation drawer.
+
+Make tables horizontally scrollable on small screens.
+
+Do not allow the layout to overflow horizontally.
+
+Make forms responsive.
+
+Use two-column forms on desktop where appropriate.
+
+Use one-column forms on mobile.
+
+Make dashboard cards responsive.
+
+Make charts responsive.
+
+Make modals responsive.
+
+Make navigation responsive.
+
+Use professional icons.
+
+Use icons consistently.
+
+Do not use random emojis as UI icons.
+
+Create a landing/login experience appropriate for an enterprise mining application.
+
+Use a professional mining-related visual identity.
+
+The application should communicate equipment reliability, maintenance, safety and operational efficiency.
+
+Create a clean login page.
+
+Create an appropriate application logo using a simple professional icon treatment.
+
+Do not copy an existing company's branding.
+
+Create a unique application identity.
+
+Add application name to the sidebar.
+
+Display current user information in the navigation.
+
+Display role badge.
+
+Create a notification bell.
+
+Create profile menu.
+
+Create logout action.
+
+Create route structure.
+
+Public routes should include login and password reset.
+
+Protected routes should include dashboard and application modules.
+
+Role-protected routes should enforce permissions.
+
+Create frontend route guards.
+
+Create backend authorization middleware.
+
+Create API versioning such as /api/v1.
+
+Use consistent REST API naming.
+
+Use GET for retrieval.
+
+Use POST for creation.
+
+Use PUT/PATCH for updates.
+
+Use DELETE only where appropriate.
+
+Use proper HTTP status codes.
+
+Use 400 for validation errors.
+
+Use 401 for authentication errors.
+
+Use 403 for authorization errors.
+
+Use 404 for missing resources.
+
+Use 409 for conflicts.
+
+Use 500 for unexpected server errors.
+
+Return consistent JSON responses.
+
+Create a centralized API error handler.
+
+Create request validation schemas.
+
+Validate MongoDB ObjectIds.
+
+Validate dates.
+
+Validate numeric values.
+
+Validate email addresses.
+
+Validate required fields.
+
+Validate enum values.
+
+Prevent duplicate asset numbers.
+
+Prevent duplicate tyre serial numbers.
+
+Prevent duplicate part numbers.
+
+Prevent duplicate work-order numbers.
+
+Prevent invalid equipment references.
+
+Prevent invalid tyre references.
+
+Prevent invalid inventory references.
+
+Use MongoDB indexes for frequently searched fields.
+
+Create unique indexes where required.
+
+Use transactions for operations that modify multiple related records where appropriate.
+
+For tyre installation, ensure the tyre and equipment state remain consistent.
+
+For inventory issue, ensure stock update and issue record remain consistent.
+
+For work-order completion, ensure related maintenance records remain consistent.
+
+Implement safe database operations.
+
+Avoid exposing MongoDB errors directly to users.
+
+Use environment variables for configuration.
+
+Create .env.example.
+
+Do not commit .env.
+
+Create .gitignore.
+
+Include node_modules in .gitignore.
+
+Include environment files in .gitignore.
+
+Include build directories in .gitignore.
+
+Include uploaded private files appropriately.
+
+Create README.md.
+
+README must explain the project.
+
+README must explain the architecture.
+
+README must explain installation.
+
+README must explain environment variables.
+
+README must explain database setup.
+
+README must explain seed data.
+
+README must explain how to run frontend.
+
+README must explain how to run backend.
+
+README must explain available roles.
+
+README must explain major modules.
+
+README must explain API structure.
+
+README must explain deployment.
+
+Create package scripts.
+
+Create development scripts.
+
+Create production build scripts.
+
+Make frontend build successfully.
+
+Make backend start successfully.
+
+Make database connection configurable.
+
+Create seed users for development.
+
+Use clearly documented demo credentials.
+
+Do not use real passwords.
+
+Use development-only seed credentials.
+
+Create realistic sample equipment.
+
+Include mining trucks.
+
+Include excavators.
+
+Include loaders.
+
+Include dozers.
+
+Include graders where appropriate.
+
+Create realistic equipment IDs.
+
+Create realistic maintenance records.
+
+Create realistic tyre records.
+
+Create realistic spare parts.
+
+Create realistic work orders.
+
+Create realistic alerts.
+
+Create realistic dashboard statistics from database data.
+
+Do not hardcode dashboard statistics.
+
+Dashboard values must come from APIs/database.
+
+Do not hardcode table data in React.
+
+All business data must come from the backend.
+
+Do not put secret credentials in React.
+
+Do not put database credentials in frontend code.
+
+Do not expose JWT secrets.
+
+Create API service functions.
+
+Centralize API communication.
+
+Handle authentication failures globally.
+
+If access token expires, handle the session appropriately.
+
+Prevent unauthorized API access.
+
+Create proper logout handling.
+
+Protect against brute-force login attempts.
+
+Use rate limiting.
+
+Use secure cookies if implementing cookie-based authentication.
+
+If using Authorization headers, ensure tokens are handled safely.
+
+Do not store highly sensitive data unnecessarily.
+
+Do not log passwords.
+
+Do not log authentication tokens.
+
+Do not return authentication secrets.
+
+Create security-focused middleware.
+
+Use Helmet.
+
+Use express-rate-limit.
+
+Use input validation.
+
+Use sanitization.
+
+Use CORS restrictions.
+
+Configure CORS through environment variables.
+
+Use secure production configuration.
+
+Create database backup guidance in README.
+
+Create deployment guidance for MongoDB Atlas.
+
+Create deployment guidance for the backend.
+
+Create deployment guidance for the frontend.
+
+Ensure the application can be deployed to common cloud platforms.
+
+Do not assume localhost in production.
+
+Use environment-based configuration.
+
+Create development environment.
+
+Create production environment configuration examples.
+
+Create frontend .env.example.
+
+Create backend .env.example.
+
+Create API base URL configuration.
+
+Use React environment variables correctly.
+
+Create a 404 page.
+
+Create a 403 page.
+
+Create a general error page.
+
+Create a loading screen.
+
+Create a professional not-found page.
+
+Create empty-state messages.
+
+Make error messages understandable.
+
+Do not expose stack traces to end users.
+
+Create proper form reset behavior.
+
+Prevent accidental duplicate submissions.
+
+Disable submit buttons while requests are running.
+
+Show progress/loading indicators.
+
+Handle slow network requests gracefully.
+
+Handle API failures gracefully.
+
+Handle database connection failures gracefully.
+
+Create frontend error boundaries.
+
+Ensure the application does not crash because one component fails.
+
+Create confirmation before destructive operations.
+
+Use soft delete for critical entities where appropriate.
+
+Maintain historical records.
+
+Never remove maintenance history accidentally.
+
+Never remove tyre lifecycle history accidentally.
+
+Never remove audit records accidentally.
+
+Create data relationships carefully.
+
+Equipment can have many maintenance records.
+
+Equipment can have many work orders.
+
+Equipment can have many tyres over its lifetime.
+
+Tyres can belong to different equipment over time.
+
+Work orders can use multiple spare parts.
+
+Spare parts can be used in multiple work orders.
+
+Users can create multiple work orders.
+
+Technicians can be assigned multiple work orders.
+
+Suppliers can provide multiple spare parts.
+
+Locations can contain multiple equipment assets.
+
+Create efficient queries.
+
+Avoid unnecessary database requests.
+
+Avoid N+1 query patterns where possible.
+
+Use pagination on backend APIs.
+
+Do not retrieve thousands of records unnecessarily.
+
+Use projection/select fields when appropriate.
+
+Create proper database indexes.
+
+Create aggregation queries for analytics.
+
+Create reusable backend service functions.
+
+Create reusable frontend hooks.
+
+Use React Query/TanStack Query or an equivalent modern data-fetching solution if appropriate.
+
+Use a state management solution only where needed.
+
+Do not introduce unnecessary global state.
+
+Keep authentication state centralized.
+
+Keep server state separate from UI state.
+
+Use form management where beneficial.
+
+Use a modern validation library.
+
+Keep dependencies reasonable.
+
+Avoid unnecessary packages.
+
+Ensure all packages are compatible.
+
+Do not use abandoned libraries.
+
+Use current stable versions where possible.
+
+Create a professional color system.
+
+Use colors that communicate industrial reliability and safety.
+
+Do not make the entire UI dark unless it improves usability.
+
+Provide a clean default theme.
+
+If implementing dark mode, make it fully functional.
+
+Do not create a fake dark mode button.
+
+If dark mode is implemented, persist the preference.
+
+Ensure charts work in both themes if dark mode exists.
+
+Create a responsive sidebar.
+
+Create responsive tables.
+
+Create responsive cards.
+
+Create responsive forms.
+
+Create responsive modals.
+
+Create responsive charts.
+
+Test common screen widths.
+
+Test desktop.
+
+Test laptop.
+
+Test tablet.
+
+Test mobile.
+
+Ensure no clipped content.
+
+Ensure no overlapping elements.
+
+Ensure buttons remain accessible on mobile.
+
+Ensure touch targets are sufficiently large.
+
+Create a professional dashboard layout.
+
+Use a logical information hierarchy.
+
+Put the most important KPIs at the top.
+
+Put operational charts below KPIs.
+
+Put alerts and upcoming maintenance in useful positions.
+
+Create quick actions.
+
+Quick actions can include Add Equipment.
+
+Create Work Order.
+
+Add Tyre.
+
+Record Inspection.
+
+Add Spare Part.
+
+Create clear navigation categories.
+
+Dashboard.
+
+Operations.
+
+Equipment.
+
+Maintenance.
+
+Tyres.
+
+Inventory.
+
+Reports.
+
+Alerts.
+
+Administration.
+
+Settings.
+
+Do not show modules the current role cannot access.
+
+However, backend authorization must still protect the APIs.
+
+Create maintenance calendar view if practical.
+
+Display scheduled maintenance on calendar.
+
+Allow clicking a maintenance event to open its work order.
+
+Create upcoming maintenance widget.
+
+Create overdue maintenance widget.
+
+Create critical alerts widget.
+
+Create low-stock widget.
+
+Create tyre inspection widget.
+
+Create recent activity widget.
+
+Recent activity should come from audit/activity data.
+
+Create an activity timeline for equipment.
+
+Show equipment status changes.
+
+Show maintenance events.
+
+Show tyre installation/removal events.
+
+Show work orders.
+
+Create equipment health score where practical.
+
+Calculate health score based on maintenance status, downtime, age and inspection data.
+
+Clearly label it as a calculated indicator.
+
+Do not present calculated scores as official industry standards.
+
+Create tyre health score where practical.
+
+Base it on tread, pressure, inspection and condition.
+
+Clearly label calculated values.
+
+Create maintenance priority recommendation logic.
+
+Critical equipment issues should receive high priority.
+
+Overdue maintenance should generate alerts.
+
+Critical tyre condition should generate alerts.
+
+Low inventory should generate alerts.
+
+Do not make dangerous automated decisions.
+
+The application is a management and tracking system.
+
+Safety-critical decisions must remain under human supervision.
+
+Create audit trails for changes to critical maintenance and tyre information.
+
+Create role-based access control tests.
+
+Create backend API tests where practical.
+
+Create validation tests.
+
+Create authentication tests.
+
+Create important business logic tests.
+
+Create frontend component tests where practical.
+
+Ensure npm scripts exist for testing.
+
+Do not leave test files completely empty.
+
+Create useful test coverage for core functions.
+
+Create clean code formatting.
+
+Use ESLint.
+
+Use a consistent coding style.
+
+Use Prettier if appropriate.
+
+Do not put comments in generated source code.
+
+Do not include TODO comments.
+
+Do not leave placeholder functions.
+
+Do not leave fake API endpoints.
+
+Do not leave "coming soon" pages for required modules.
+
+Do not create non-functional navigation links.
+
+Every navigation item must lead to an implemented page.
+
+Every CRUD module must support create/read/update/delete or the appropriate controlled lifecycle.
+
+Do not allow deletion where historical integrity would be damaged.
+
+Use archive/deactivate functionality where appropriate.
+
+Create proper database schemas.
+
+Use schema validation.
+
+Use enum constraints.
+
+Use default values.
+
+Use timestamps.
+
+Use references.
+
+Use indexes.
+
+Create backend controllers.
+
+Create backend services.
+
+Create backend routes.
+
+Create backend middleware.
+
+Create backend models.
+
+Create backend validation.
+
+Create frontend pages.
+
+Create frontend components.
+
+Create frontend layouts.
+
+Create frontend hooks.
+
+Create frontend API services.
+
+Create frontend utilities.
+
+Create frontend state management.
+
+Create frontend route protection.
+
+Create frontend authentication context if appropriate.
+
+Create complete application navigation.
+
+Before considering the project complete, verify that frontend and backend communicate correctly.
+
+Verify MongoDB connectivity.
+
+Verify login.
+
+Verify logout.
+
+Verify role-based access.
+
+Verify equipment creation.
+
+Verify equipment editing.
+
+Verify equipment search.
+
+Verify equipment filtering.
+
+Verify equipment details.
+
+Verify maintenance creation.
+
+Verify work-order assignment.
+
+Verify work-order status changes.
+
+Verify work-order completion.
+
+Verify maintenance history.
+
+Verify tyre creation.
+
+Verify tyre inspection.
+
+Verify tyre installation.
+
+Verify tyre removal.
+
+Verify tyre rotation.
+
+Verify tyre history.
+
+Verify inventory creation.
+
+Verify stock-in.
+
+Verify stock-out.
+
+Verify work-order spare-part usage.
+
+Verify low-stock alerts.
+
+Verify dashboard analytics.
+
+Verify report filters.
+
+Verify CSV export.
+
+Verify audit logs.
+
+Verify notifications.
+
+Verify responsive behavior.
+
+Verify unauthorized API requests.
+
+Verify invalid form submission.
+
+Verify duplicate records.
+
+Verify expired authentication.
+
+Verify server errors.
+
+Fix all build errors.
+
+Fix all runtime errors.
+
+Fix broken routes.
+
+Fix API errors.
+
+Fix validation issues.
+
+Fix responsive layout issues.
+
+Fix console errors.
+
+Fix network request errors.
+
+Do not stop after creating the initial UI.
+
+Actually connect all frontend pages to backend APIs.
+
+Actually connect backend APIs to MongoDB.
+
+Ensure data persists after page refresh.
+
+Ensure authentication persists appropriately.
+
+Ensure dashboard data updates after CRUD operations.
+
+Ensure related data updates correctly.
+
+For example, when equipment status changes, dashboard statistics should reflect the change.
+
+When a tyre is installed, tyre status should change appropriately.
+
+When a tyre is removed, its lifecycle history should be preserved.
+
+When inventory is issued to a work order, stock quantity should decrease.
+
+When a work order is completed, maintenance history should update.
+
+When maintenance becomes overdue, an alert should be generated.
+
+When stock goes below minimum, a low-stock alert should be generated.
+
+Build the system in a maintainable manner.
+
+Do not generate everything as one huge React component.
+
+Do not generate everything as one huge Express file.
+
+Use modular files.
+
+Use reusable components.
+
+Use separation of concerns.
+
+Keep database logic out of React components.
+
+Keep UI logic out of MongoDB models.
+
+Keep authentication logic centralized.
+
+Keep authorization middleware reusable.
+
+Keep validation reusable.
+
+Use descriptive API endpoint names.
+
+Document API endpoints in README or API documentation.
+
+If practical, create Swagger/OpenAPI documentation.
+
+Include authentication requirements in API documentation.
+
+Create realistic API response examples in documentation.
+
+Create database relationship documentation in README.
+
+Create an architecture diagram description in README.
+
+Create project folder structure documentation.
+
+Create installation steps.
+
+Create seed instructions.
+
+Create demo login instructions.
+
+Create deployment instructions.
+
+Create security considerations.
+
+Create future enhancement ideas.
+
+Potential future features can include predictive maintenance.
+
+Potential future features can include IoT sensor integration.
+
+Potential future features can include GPS tracking.
+
+Potential future features can include automatic tyre pressure monitoring.
+
+Potential future features can include machine-learning-based failure prediction.
+
+Do not implement fake machine learning.
+
+Do not claim IoT functionality unless actually implemented.
+
+Focus on the currently implemented platform.
+
+The final application must be functional without external IoT hardware.
+
+Use realistic sample data to demonstrate the system.
+
+Make the project presentation-friendly.
+
+The dashboard should immediately communicate the value of the platform.
+
+The system should demonstrate how mining companies can manage equipment reliability.
+
+The system should demonstrate how maintenance teams can manage work orders.
+
+The system should demonstrate how tyre lifecycle can be tracked.
+
+The system should demonstrate how spare parts can be controlled.
+
+The system should demonstrate how management can monitor costs and downtime.
+
+The system should demonstrate how alerts reduce missed maintenance.
+
+The system should demonstrate how audit logs improve accountability.
+
+Create a professional application title.
+
+Use **Mining Equipment & Tyre Maintenance Management Platform** throughout the application.
+
+Display **MARI ESWARAN V** in the project documentation/about section where appropriate.
+
+Create an About/System Information page.
+
+Show project name.
+
+Show technology stack.
+
+Show project purpose.
+
+Show major modules.
+
+Do not expose unnecessary personal information elsewhere.
+
+Create a footer where appropriate.
+
+Keep the footer minimal.
+
+Do not make the application look like a template.
+
+Make the UI unique.
+
+Use realistic wording.
+
+Avoid generic placeholder text such as Lorem ipsum.
+
+Avoid fake names such as John Doe unless absolutely necessary.
+
+Use realistic Indian/international mining operation sample data.
+
+Use realistic maintenance terminology.
+
+Use professional status labels.
+
+Use professional error messages.
+
+Use professional confirmation messages.
+
+Use consistent capitalization.
+
+Use consistent date formatting.
+
+Use consistent currency formatting.
+
+Make currency configurable.
+
+Default currency can be INR for the demonstration environment.
+
+Display costs clearly.
+
+Do not hardcode currency symbols throughout the application.
+
+Create utility functions for currency and date formatting.
+
+Create utility functions for status formatting.
+
+Create utility functions for API errors.
+
+Create utility functions for permissions.
+
+Ensure date/time handling is consistent.
+
+Use UTC/storage-safe date practices where appropriate.
+
+Display dates in a user-friendly format.
+
+Avoid timezone-related bugs.
+
+Create proper unique identifiers.
+
+Use MongoDB ObjectIds internally.
+
+Use human-readable IDs for equipment and work orders.
+
+Use generated work-order numbers.
+
+Use generated asset IDs if appropriate.
+
+Ensure identifiers are collision-safe.
+
+Create database indexes.
+
+Index equipment asset number.
+
+Index equipment status.
+
+Index equipment type.
+
+Index tyre serial number.
+
+Index tyre status.
+
+Index work-order number.
+
+Index work-order status.
+
+Index work-order priority.
+
+Index maintenance dates.
+
+Index spare-part number.
+
+Index inventory status.
+
+Index alert status.
+
+Index audit timestamps.
+
+Use compound indexes where query patterns justify them.
+
+Avoid excessive indexes.
+
+Create appropriate MongoDB schemas.
+
+Use Mongoose.
+
+Use Mongoose validation.
+
+Use lean queries where appropriate.
+
+Use pagination.
+
+Use filtering.
+
+Use safe sorting.
+
+Whitelist sortable fields.
+
+Do not allow arbitrary MongoDB operators from user input.
+
+Protect against NoSQL injection.
+
+Sanitize query parameters.
+
+Validate request body.
+
+Validate request parameters.
+
+Validate request query.
+
+Protect authentication endpoints.
+
+Implement account lockout or progressive rate limiting if practical.
+
+Never reveal whether a password is correct in overly detailed error messages.
+
+Use generic authentication failure messages.
+
+Create secure password reset behavior.
+
+Do not expose reset tokens in normal logs.
+
+Expire reset tokens.
+
+Create password strength validation.
+
+Require appropriate password complexity.
+
+Allow password change from profile.
+
+Invalidate relevant sessions/tokens after password change where practical.
+
+Create security documentation.
+
+Create production deployment checklist.
+
+Create database migration/seed strategy where appropriate.
+
+Create backup and restore guidance.
+
+Create monitoring guidance.
+
+Create error-handling guidance.
+
+Ensure the project can be understood by another developer.
+
+Keep naming consistent.
+
+Keep architecture consistent.
+
+Keep API naming consistent.
+
+Keep database naming consistent.
+
+Keep UI naming consistent.
+
+Do not create duplicate versions of the same feature.
+
+If an existing module can be reused, reuse it.
+
+Before writing files, first inspect the project structure if an existing project already exists.
+
+If files already exist, do not blindly overwrite working functionality.
+
+Improve existing code when appropriate.
+
+Preserve useful existing configuration.
+
+If starting from an empty directory, create the complete project structure.
+
+First establish the architecture.
+
+Then implement backend.
+
+Then implement database models.
+
+Then implement authentication.
+
+Then implement authorization.
+
+Then implement equipment management.
+
+Then implement maintenance management.
+
+Then implement tyre management.
+
+Then implement inventory management.
+
+Then implement alerts.
+
+Then implement reports.
+
+Then implement dashboards.
+
+Then implement audit logs.
+
+Then implement settings.
+
+Then implement responsive UI polish.
+
+Then perform integration testing.
+
+Then fix errors.
+
+Then perform final quality checks.
+
+Do not declare the project finished until the application builds successfully.
+
+Do not declare the project finished until the backend starts successfully.
+
+Do not declare the project finished until MongoDB connection works.
+
+Do not declare the project finished until the frontend starts successfully.
+
+Do not declare the project finished until login works.
+
+Do not declare the project finished until protected routes work.
+
+Do not declare the project finished until CRUD flows work.
+
+Do not declare the project finished until dashboard APIs work.
+
+Do not declare the project finished until responsive layouts are checked.
+
+Do not declare the project finished until there are no obvious runtime errors.
+
+If an implementation choice is ambiguous, choose the approach that is more secure, maintainable and production-ready.
+
+Prioritize functionality over decorative effects.
+
+Prioritize data integrity.
+
+Prioritize security.
+
+Prioritize usability.
+
+Prioritize responsive design.
+
+Prioritize maintainability.
+
+Prioritize realistic workflows.
+
+Do not simplify the project into a toy CRUD application.
+
+The final result should look like a genuine maintenance management platform that could be demonstrated to a mining company.
+
+Use the project title consistently.
+
+Use MERN throughout the implementation.
+
+Use MongoDB.
+
+Use Express.
+
+Use React.
+
+Use Node.js.
+
+Use modern JavaScript.
+
+Use JSX where appropriate.
+
+Use CSS or a suitable modern styling solution.
+
+Use a professional component library only if it improves consistency.
+
+Avoid unnecessary UI dependencies.
+
+Ensure the application runs with the documented commands.
+
+Provide final instructions for:
+
+Installing dependencies.
+
+Creating environment files.
+
+Starting MongoDB.
+
+Seeding the database.
+
+Starting backend.
+
+Starting frontend.
+
+Running tests.
+
+Building production frontend.
+
+Starting production backend.
+
+The final README must contain demo accounts for each major role using development-only credentials.
+
+The final README must contain a feature list.
+
+The final README must contain architecture information.
+
+The final README must contain security information.
+
+The final README must contain deployment instructions.
+
+The final README must contain API information.
+
+The final README must contain database collections.
+
+The final README must contain project screenshots section placeholders if screenshots are not available.
+
+Do not place comments in source code.
+
+Do not generate commented code.
+
+Do not generate unnecessary explanatory comments.
+
+Do not generate TODO comments.
+
+Do not generate fake implementations.
+
+Do not generate dead code.
+
+Do not generate unused imports.
+
+Do not generate unused variables.
+
+Do not generate broken references.
+
+Do not generate broken routes.
+
+Do not generate broken API calls.
+
+Do not generate hardcoded production secrets.
+
+Do not generate insecure password storage.
+
+Do not expose database credentials.
+
+Do not expose JWT secrets.
+
+Do not trust frontend authorization.
+
+Do not skip backend authorization.
+
+Do not skip validation.
+
+Do not skip error handling.
+
+Do not skip responsive design.
+
+Do not skip loading states.
+
+Do not skip empty states.
+
+Do not skip confirmation dialogs.
+
+Do not skip audit logging for important administrative actions.
+
+Do not skip database indexes.
+
+Do not skip seed data.
+
+Do not skip README documentation.
+
+At the end, inspect the entire implementation for consistency.
+
+Find duplicate components.
+
+Find unused files.
+
+Find unused imports.
+
+Find broken imports.
+
+Find missing environment variables.
+
+Find missing API routes.
+
+Find missing frontend routes.
+
+Find permission mismatches.
+
+Find database reference problems.
+
+Find responsive problems.
+
+Find API error-handling problems.
+
+Find security issues.
+
+Fix the issues you identify.
+
+Run the project build.
+
+Run available tests.
+
+Verify the major workflows.
+
+Only after completing these checks consider the implementation complete.
+
+The final project must be a polished, secure, responsive and realistic **Mining Equipment & Tyre Maintenance Management Platform** built using the MERN stack

@@ -1,0 +1,16 @@
+node_modules
+.npm_cache
+.npm_global
+.cache
+backend/.cache
+*.exe
+.temp
+temp
+dist
+build
+.env
+.env.local
+*.log
+.DS_Store
+.vscode
+.idea
