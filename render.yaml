@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: mining-maintenance-platform
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        value: mongodb+srv://marieswaranv07_db_user:Mathi_Vel%402007@cluster0.eedgrgq.mongodb.net/mining_platform?retryWrites=true&w=majority&appName=Cluster0
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: DEFAULT_CURRENCY
+        value: INR
