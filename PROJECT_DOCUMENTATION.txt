@@ -1,0 +1,96 @@
+================================================================================
+MINING EQUIPMENT & TYRE MAINTENANCE MANAGEMENT PLATFORM
+Comprehensive System & Architecture Documentation
+================================================================================
+
+1. EXECUTIVE SUMMARY
+---------------------
+The Mining Equipment & Tyre Maintenance Management Platform is a full-stack enterprise web application (MERN Stack: MongoDB, Express.js, React 18 + Vite, Node.js). It is designed to manage heavy mining fleet operations, Off-The-Road (OTR) tyre lifecycles, preventive & breakdown work orders, spare parts inventory control, downtime logs, and safety inspections.
+
+Developer / Student: MARI ESWARAN V
+
+2. TECHNOLOGY STACK & ENVIRONMENT
+----------------------------------
+- Frontend: React 18, Vite, React Router v6, Axios, Chart.js / react-chartjs-2, Lucide React Icons, Custom Industrial Visual Tokens (Dark Theme).
+- Backend: Node.js, Express.js REST API, Mongoose ODM, JWT Authentication, Bcryptjs, Helmet, CORS, Express Rate Limit, Morgan logging.
+- Database: MongoDB (Remote MongoDB Atlas / Local MongoDB fallback).
+- Ports & Access:
+  * Backend API: http://localhost:5000/api/v1
+  * Frontend Application: http://localhost:5173
+
+3. ROLE-BASED ACCESS CONTROL (RBAC) SYSTEM
+------------------------------------------
+The platform supports 8 distinct user roles, each with tailored navigation and role-specific dashboard metrics:
+
+1. Super Admin: Full unrestricted system access, user management, audit logs, system threshold configurations.
+2. Maintenance Manager: Approves work orders, assigns engineers & technicians, monitors fleet MTBF/MTTR and compliance.
+3. Maintenance Engineer: Diagnoses equipment issues, creates work order schedules, manages PM compliance, issues spare parts.
+4. Technician: Views assigned work orders, completes checklist tasks, logs parts used & labor duration, closes work orders.
+5. Fleet Manager: Tracks equipment availability, operational hours, location dispatch, and fleet utilization metrics.
+6. Store Manager: Manages spare parts inventory, min/max reorder levels, stock movement logs, suppliers, purchase orders.
+7. Safety Officer: Conducts OTR tyre inspections, logs damage types, tracks safety compliance & critical defects.
+8. Viewer: Read-only access to equipment lists, work order summaries, and high-level platform reports.
+
+4. KEY CORE MODULES & DATABASE MODELS
+--------------------------------------
+A. Equipment Management (Equipment model)
+   - Tracks heavy mining assets (Haul Trucks, Hydraulic Excavators, Wheel Loaders, Track Dozers, Motor Graders, Drill Rigs).
+   - Attributes: Equipment ID (e.g. EQ-1001), Asset Number, Model, Serial Number, Operating Hours, Status (Active, Under Maintenance, Breakdown, Available), Department, Location.
+
+B. Work Order & Maintenance Management (WorkOrder & Downtime models)
+   - Manages Preventive, Corrective, Breakdown, Inspection, and Emergency work orders.
+   - Lifecycle: Draft -> Open -> Assigned -> In Progress -> Completed / Cancelled.
+   - Interactive checklists, assigned engineers & technicians, estimated vs actual labor/parts cost, automatic downtime logs.
+
+C. OTR Tyre Lifecycle Management (Tyre, TyreInspection, TyreHistory models)
+   - Manages high-cost mining tyres (e.g. Michelin 59/80R63, Bridgestone MasterCore).
+   - Wheel position mapping (FL, FR, RL-Outer, RL-Inner, etc.), tread depth tracking (mm), pressure & temp monitoring, inspections, mount/demount history, cost-per-hour calculations.
+
+D. Inventory & Procurement (SparePart, InventoryMovement, PurchaseOrder, Supplier models)
+   - Tracks spare parts stock levels, automated low-stock reorder alerts, movement logs (Stock-In, Stock-Out, WorkOrder Issue), purchase orders, and supplier directory.
+
+E. Security & Governance (Alert, AuditLog, SystemSetting models)
+   - Centralized alert notifications for critical breakdowns, low stock, and overdue inspections.
+   - Immutable audit log capturing user actions, timestamps, and IP addresses.
+   - System threshold settings for reorder levels, safety critical tread depth, and alert lead times.
+
+5. API ROUTES OVERVIEW (/api/v1)
+---------------------------------
+- /api/v1/auth        : Login, Register, Profile, Change Password
+- /api/v1/dashboard   : Aggregated parallel metrics for role-tailored dashboards
+- /api/v1/equipment   : List, Get by ID, Create, Update, Delete
+- /api/v1/maintenance : Work Order CRUD, Technician Assignment, Checklist, Close WO
+- /api/v1/tyres       : Tyre Inventory, Mount, Dismount, Rotation, Inspection
+- /api/v1/inventory   : Spare Parts CRUD, Stock Movement, Purchase Orders
+- /api/v1/alerts      : Alerts List, Mark Read, Read All
+- /api/v1/reports     : Equipment, Maintenance Cost, Tyre Lifecycle, Inventory Valuation Reports
+- /api/v1/audit       : System Audit Logs
+- /api/v1/settings    : System Threshold Settings
+
+6. DEMO ACCOUNTS FOR TESTING (Password for all: Password@123)
+--------------------------------------------------------------
+- Super Admin: admin@miningplatform.com
+- Maintenance Manager: manager@miningplatform.com
+- Maintenance Engineer: engineer@miningplatform.com
+- Technician: tech@miningplatform.com
+- Fleet Manager: fleet@miningplatform.com
+- Store Manager: store@miningplatform.com
+- Safety Officer: safety@miningplatform.com
+
+7. HOW TO RUN THE PROJECT LOCALLY
+----------------------------------
+1. Start Backend:
+   cd e:\FS_PT\backend
+   npm run dev
+
+2. Start Frontend:
+   cd e:\FS_PT\frontend
+   npm run dev
+
+3. Seed Initial Database:
+   cd e:\FS_PT\backend
+   npm run seed
+
+================================================================================
+Developed by MARI ESWARAN V
+================================================================================
