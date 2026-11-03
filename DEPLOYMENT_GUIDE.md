@@ -4,43 +4,55 @@ This full-stack application is configured for **unified cloud deployment** (Reac
 
 ---
 
+## 🌟 Live Deployed Links (Render.com)
+
+- **Frontend Application URL**: [https://fs-pd-frontend.onrender.com](https://fs-pd-frontend.onrender.com)
+  *(Or unified fullstack link: [https://fs-pd-backend.onrender.com](https://fs-pd-backend.onrender.com))*
+- **Backend API Base URL**: [https://fs-pd-backend.onrender.com/api/v1](https://fs-pd-backend.onrender.com/api/v1)
+- **API Health Check**: [https://fs-pd-backend.onrender.com/api/health](https://fs-pd-backend.onrender.com/api/health)
+
+---
+
 ## 🌟 Quickest & Free Deployment Method (Render.com)
 
 [Render.com](https://render.com) provides **free hosting with 24/7 public HTTPS URLs**.
 
-### Step 1: Push your project to GitHub
-1. Make sure your latest code is pushed to your GitHub repository:
-   ```bash
-   git add .
-   git commit -m "Configure production deployment"
-   git push origin main
-   ```
+### Option A: Two-Service Deployment (Frontend Static Site + Backend Web Service)
 
-### Step 2: Deploy on Render
-1. Go to [dashboard.render.com](https://dashboard.render.com) and log in with your GitHub account.
-2. Click **"New +"** and select **"Web Service"**.
-3. Select your repository `FS_PT` (or your repository name).
-4. Fill in the following settings:
-   - **Name**: `mining-platform` (or any custom name)
-   - **Language**: `Node`
-   - **Branch**: `main`
-   - **Root Directory**: *(leave blank / default)*
-   - **Build Command**: `npm run build`
-   - **Start Command**: `npm start`
-   - **Instance Type**: `Free`
+#### 1. Backend Web Service (`fs-pd-backend`)
+- **Type**: Web Service
+- **Name**: `fs-pd-backend`
+- **Language**: `Node`
+- **Branch**: `main`
+- **Build Command**: `npm run build`
+- **Start Command**: `npm start`
+- **Environment Variables**:
+  - `NODE_ENV`: `production`
+  - `MONGODB_URI`: `mongodb+srv://marieswaranv07_db_user:Mathi_Vel%402007@cluster0.eedgrgq.mongodb.net/mining_platform?retryWrites=true&w=majority&appName=Cluster0`
+  - `JWT_SECRET`: `mining_platform_jwt_secret_key_2026_super_secure_enterprise`
+  - `JWT_EXPIRES_IN`: `7d`
+  - `DEFAULT_CURRENCY`: `INR`
+  - `CLIENT_URL`: `https://fs-pd-frontend.onrender.com`
 
-5. Under **Environment Variables**, add the following:
-   | Key | Value |
-   |---|---|
-   | `NODE_ENV` | `production` |
-   | `MONGODB_URI` | `mongodb+srv://marieswaranv07_db_user:Mathi_Vel%402007@cluster0.eedgrgq.mongodb.net/mining_platform?retryWrites=true&w=majority&appName=Cluster0` |
-   | `JWT_SECRET` | `mining_platform_jwt_secret_key_2026_super_secure_enterprise` |
-   | `JWT_EXPIRES_IN` | `7d` |
-   | `DEFAULT_CURRENCY` | `INR` |
+#### 2. Frontend Static Site (`fs-pd-frontend`)
+- **Type**: Static Site
+- **Name**: `fs-pd-frontend`
+- **Branch**: `main`
+- **Build Command**: `npm install --prefix frontend && npm run build --prefix frontend`
+- **Publish Directory**: `frontend/dist`
+- **Rewrite / Redirect Rules** (for React Router client-side routing):
+  - **Source**: `/*`
+  - **Destination**: `/index.html`
+  - **Action**: `Rewrite`
+  *(Pre-configured via `frontend/public/_redirects`)*
+- **Environment Variables**:
+  - `VITE_API_URL`: `https://fs-pd-backend.onrender.com/api/v1`
 
-6. Click **"Create Web Service"**.
-7. In ~2 minutes, Render will build and deploy your app, giving you a live URL:
-   `https://mining-platform-xxxx.onrender.com`
+---
+
+### Option B: Unified Fullstack Single Service
+Because `backend/server.js` automatically serves the compiled `frontend/dist` folder, deploying `fs-pd-backend` as a single Web Service will serve both the backend API and the entire frontend application at:
+`https://fs-pd-backend.onrender.com`
 
 ---
 

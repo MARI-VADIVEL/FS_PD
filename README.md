@@ -19,7 +19,14 @@ viewer@mining.com / Viewer@123
 
 ---
 
-Backend: https://fs-pd-backend.onrender.com (Local: http://localhost:5000)
-Frontend: http://localhost:5173
+## 🌐 Live Deployment Links
+- **Frontend App**: https://fs-pd-frontend.onrender.com (or unified: https://fs-pd-backend.onrender.com)
+- **Backend API**: https://fs-pd-backend.onrender.com/api/v1
+- **API Health Check**: https://fs-pd-backend.onrender.com/api/health
+
+---
+
+Backend (Local): http://localhost:5000
+Frontend (Local): http://localhost:5173
 
 Developed by MARI ESWARAN V

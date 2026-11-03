@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: mining-maintenance-platform
+    name: fs-pd-backend
     env: node
     plan: free
     buildCommand: npm run build
@@ -18,3 +18,17 @@ services:
         value: 7d
       - key: DEFAULT_CURRENCY
         value: INR
+      - key: CLIENT_URL
+        value: https://fs-pd-frontend.onrender.com
+
+  - type: static
+    name: fs-pd-frontend
+    buildCommand: npm install --prefix frontend && npm run build --prefix frontend
+    staticPublishPath: ./frontend/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        value: https://fs-pd-backend.onrender.com/api/v1
