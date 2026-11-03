@@ -19,7 +19,7 @@ viewer@mining.com / Viewer@123
 
 ---
 
-Backend: http://localhost:5000
+Backend: https://fs-pd-backend.onrender.com (Local: http://localhost:5000)
 Frontend: http://localhost:5173
 
 Developed by MARI ESWARAN V

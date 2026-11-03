@@ -13,7 +13,7 @@ The **Mining Equipment & Tyre Maintenance Management Platform** is a full-stack 
 - **Backend**: Node.js, Express.js REST API, Mongoose ODM, JWT Authentication, Bcryptjs, Helmet, CORS, Express Rate Limit, Morgan logging.
 - **Database**: MongoDB (Remote Atlas / Local MongoDB fallback).
 - **Deployment & Server Port**: 
-  - Backend API: `http://localhost:5000/api/v1`
+  - Backend API: `https://fs-pd-backend.onrender.com/api/v1` (Local fallback: `http://localhost:5000/api/v1`)
   - Frontend App: `http://localhost:5173`
 
 ---

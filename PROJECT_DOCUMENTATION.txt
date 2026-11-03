@@ -15,7 +15,7 @@ Developer / Student: MARI ESWARAN V
 - Backend: Node.js, Express.js REST API, Mongoose ODM, JWT Authentication, Bcryptjs, Helmet, CORS, Express Rate Limit, Morgan logging.
 - Database: MongoDB (Remote MongoDB Atlas / Local MongoDB fallback).
 - Ports & Access:
-  * Backend API: http://localhost:5000/api/v1
+  * Backend API: https://fs-pd-backend.onrender.com/api/v1 (Local: http://localhost:5000/api/v1)
   * Frontend Application: http://localhost:5173
 
 3. ROLE-BASED ACCESS CONTROL (RBAC) SYSTEM
